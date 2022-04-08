@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "thoracicproblem"
+version = "0.1.0"
+description = ""
+authors = ["Paul Deveaux <paul@pauldeveaux.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pandas = "^1.4.2"
+numpy = "^1.22.3"
+scipy = "^1.8.0"
+seaborn = "^0.11.2"
+scikit-learn = "^1.0.2"
+ipython = "^8.2.0"
+ipykernel = "^6.12.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
